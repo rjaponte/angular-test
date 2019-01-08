@@ -17,7 +17,10 @@ enableProdMode();
 // Express server
 const app = express();
 
-const PORT = process.env.PORT || 4000;
+let port = process.env.PORT;
+if (port == null || port === '') {
+  port = '8000';
+}
 const DIST_FOLDER = join(process.cwd(), 'dist/browser');
 
 app.use(compression());
@@ -49,6 +52,6 @@ app.get('*', (req, res) => {
 });
 
 // Start up the Node server
-app.listen(PORT, () => {
-  console.log(`Node Express server listening on http://localhost:${PORT}`);
+app.listen(port, () => {
+  console.log(`Node Express server listening on http://localhost:${port}`);
 });
