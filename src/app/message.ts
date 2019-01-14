@@ -1,5 +1,6 @@
 export class Message {
+    _id?: string;
     timestamp: Date;
     picture?: string;
-    messageText?: string;
+    messagetext?: string;
 }

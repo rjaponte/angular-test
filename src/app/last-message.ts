@@ -12,7 +12,7 @@ const MESSAGES: LastMessage[] = [
     {
         groupId: 1,
         message: {
-            messageText: 'This is a test message',
+            messagetext: 'This is a test message',
             timestamp: new Date('2019-01-03T11:37:00')
         },
         users: [
@@ -22,7 +22,7 @@ const MESSAGES: LastMessage[] = [
     {
         groupId: 5,
         message: {
-            messageText: 'This is a test message',
+            messagetext: 'This is a test message',
             timestamp: new Date('2019-01-01T23:37:00')
         },
         users: [
@@ -32,7 +32,7 @@ const MESSAGES: LastMessage[] = [
     {
         groupId: 4,
         message: {
-            messageText: 'This is a test message',
+            messagetext: 'This is a test message',
             timestamp: new Date('2018-12-31T11:37:00')
         },
         users: [
@@ -42,7 +42,7 @@ const MESSAGES: LastMessage[] = [
     {
         groupId: 3,
         message: {
-            messageText: 'This is a test message',
+            messagetext: 'This is a test message',
             timestamp: new Date('2019-01-01T11:37:00')
         },
         users: [
@@ -52,7 +52,7 @@ const MESSAGES: LastMessage[] = [
     {
         groupId: 2,
         message: {
-            messageText: 'This is a test message',
+            messagetext: 'This is a test message',
             timestamp: new Date('2019-01-02T11:37:00')
         },
         users: [

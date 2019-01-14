@@ -11,6 +11,8 @@ import { MatToolbarModule, MatMenuModule, MatIconModule, MatListModule, MatButto
 
 import { ToolbarComponent } from './toolbar/toolbar.component';
 
+import { ServicesModule } from './services/services.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +27,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     MatIconModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
