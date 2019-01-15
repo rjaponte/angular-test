@@ -43,4 +43,4 @@ curl -H "Content-Type: application/json" -d '{"groupId": 1,"message": {"messaget
 ```
 
 ## License
-This is licensed under the [MIT License](LICENSE)
+This is licensed under the [MIT License](LICENSE.md)
