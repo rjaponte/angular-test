@@ -42,4 +42,5 @@ If you want to see some messages run the following command if you have curl.
 curl -H "Content-Type: application/json" -d '{"groupId": 1,"message": {"messagetext": "This is a different test message","timestamp": "2019-01-03T11:37:00"},"users": [{"firstName": "Ricardo", "number": "8055872684", "color": "red"}]}' http://locahost:8000/api/messages
 ```
 
-
+## License
+This is licensed under the [MIT License](LICENSE)
